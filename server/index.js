@@ -12,7 +12,7 @@ import paymentRouter from "./routes/payment.route.js"
 const app = express()
 const allowedOrigins = [
     "http://localhost:5173",
-    "https://hirebridge-10hm.onrender.com"
+    "https://hirebridge-client.onrender.com"
 ]
 
 app.use(cors({
