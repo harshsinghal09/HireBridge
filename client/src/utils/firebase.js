@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_APIKEY,
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "hirebridge-dbf79.firebaseapp.com",
   projectId: "hirebridge-dbf79",
   storageBucket: "hirebridge-dbf79.appspot.com",
